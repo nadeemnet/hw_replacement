@@ -1,7 +1,7 @@
 hw-replacement
 ==============
 
-The python scripts in this directory can help during switch replacement (hw-upgrade or RMAing a switch). During switch replacement,  we need to remove all cables and then plug them back once the new switch is installed. This can introduce some issues related to mis-cabling and/or link up/down issues. These scripts help in verifying:
+The python scripts help during switch replacement (hw-upgrade or RMAing a switch). During switch replacement,  we need to remove all cables and then plug them back once the new switch is installed. This can introduce some issues related to mis-cabling and/or link up/down issues. These scripts help in verifying:
 
 1) All Ethernet and Port Channels interfaces that were 'UP' before are still 'UP' after switch replacement.
 2) A particular CDP neighbor is learned on the same port as before.
